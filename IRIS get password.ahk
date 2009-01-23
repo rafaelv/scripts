@@ -9,7 +9,7 @@ sleep, 1000
 WinWait, Hotel Wi-Fi : Users - Mozilla Firefox, 
 IfWinNotActive, Hotel Wi-Fi : Users - Mozilla Firefox, , WinActivate, Hotel Wi-Fi : Users - Mozilla Firefox, 
 WinWaitActive, Hotel Wi-Fi : Users - Mozilla Firefox, 
-Send, {TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{CTRLDOWN}v{CTRLUP}{ENTER}
+Send, {TAB}removed extra tabs{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{CTRLDOWN}v{CTRLUP}{ENTER}
 Sleep, 2000
 Send, {TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{ENTER}
 Sleep, 10000
