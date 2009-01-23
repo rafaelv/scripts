@@ -11,7 +11,7 @@ IfWinNotActive, Hotel Wi-Fi : Users - Mozilla Firefox, , WinActivate, Hotel Wi-F
 WinWaitActive, Hotel Wi-Fi : Users - Mozilla Firefox, 
 Send, {TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{CTRLDOWN}v{CTRLUP}{ENTER}
 Sleep, 2000
-Send, {TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{ENTER}
+Send, {TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{ENTER}
 Sleep, 10000
 Send, {TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{TAB}{CTRLDOWN}c{CTRLUP}
 Sleep, 500
